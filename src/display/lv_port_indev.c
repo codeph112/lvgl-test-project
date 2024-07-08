@@ -1,0 +1,357 @@
+/**
+ * @file lv_port_indev_templ.c
+ *
+ */
+
+/*Copy this file as "lv_port_indev.c" and set this value to "1" to enable content*/
+#if 1
+
+/*********************
+ *      INCLUDES
+ *********************/
+#include "lv_port_indev.h"
+#include "thread_disp.h"
+#include "touch/touch_GT911.h"
+#include "touch/arducam.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+
+/**********************
+ *      TYPEDEFS
+ **********************/
+
+/**********************
+ *  STATIC PROTOTYPES
+ **********************/
+
+static void touchpad_init(void);
+static void touchpad_read(lv_indev_t * indev, lv_indev_data_t * data);
+static bool touchpad_is_pressed(void);
+static void touchpad_get_xy(int32_t * x, int32_t * y, touch_event_t * touch);
+
+/**********************
+ *  STATIC VARIABLES
+ **********************/
+lv_indev_t * indev_touchpad;
+
+void lv_port_indev_init(void)
+{
+
+    /*------------------
+     * Touchpad
+     * -----------------*/
+
+    /*Initialize your touchpad if you have*/
+    touchpad_init();
+
+    /*Register a touchpad input device*/
+    indev_touchpad = lv_indev_create();
+    lv_indev_set_type(indev_touchpad, LV_INDEV_TYPE_POINTER);
+    lv_indev_set_read_cb(indev_touchpad, touchpad_read);
+
+
+}
+
+/**********************
+ *   STATIC FUNCTIONS
+ **********************/
+
+/*------------------
+ * Touchpad
+ * -----------------*/
+
+/*Initialize your touchpad*/
+static void touchpad_init(void)
+{
+
+}
+
+/*Will be called by the library to read the touchpad*/
+static void touchpad_read(lv_indev_t * indev_drv, lv_indev_data_t * data)
+{
+    FSP_PARAMETER_NOT_USED(indev_drv);
+    static int32_t last_x = 0;
+    static int32_t last_y = 0;
+
+    static touch_event_t touch_event = TOUCH_EVENT_NONE;
+
+    /*Save the pressed coordinates and the state*/
+    if(touchpad_is_pressed()) {
+        touchpad_get_xy(&last_x, &last_y, &touch_event);
+        if ((TOUCH_EVENT_DOWN == touch_event) || (TOUCH_EVENT_MOVE == touch_event))
+        {
+            data->state = LV_INDEV_STATE_PRESSED;
+        } else {
+            data->state = LV_INDEV_STATE_RELEASED;
+        }
+    }
+    else {
+        data->state = LV_INDEV_STATE_RELEASED;
+    }
+
+    /*Set the last pressed coordinates*/
+    data->point.x = last_x;
+    data->point.y = last_y;
+}
+
+/*Return true is the touchpad is pressed*/
+static bool touchpad_is_pressed(void)
+{
+    BaseType_t status;
+    bool touch_pressed = false;
+
+    status = xSemaphoreTake( g_irq_binary_semaphore, 0 );
+    if(pdTRUE == status)
+    {
+        touch_pressed = true;
+    }
+
+    return touch_pressed;
+}
+
+/*Get the x and y coordinates if the touchpad is pressed*/
+static void touchpad_get_xy(int32_t * x, int32_t * y, touch_event_t * touch_event)
+{
+    fsp_err_t err;
+        uint32_t number_of_coordinates;
+        uint8_t read_data[7];
+
+        TouchCordinate_t coordinates[6];
+        memset(coordinates, 0, sizeof(TouchCordinate_t));
+
+        err = rdSensorReg16_8(&g_i2c_master1_ctrl, GT911_REG_READ_COORD_ADDR, read_data);
+        if (FSP_SUCCESS != err)
+        {
+            __BKPT(0); //TODO: Better error handling
+        }
+
+        if (BUFFER_READY == (BUFFER_READY & read_data[0]))
+        {
+            number_of_coordinates = (read_data[0] & NUM_TOUCH_POINTS_MASK);
+            if (number_of_coordinates != 0)
+            {
+                for (uint8_t i = 0; i < number_of_coordinates; i++)
+                {
+                    err = rdSensorReg16_Multi(&g_i2c_master1_ctrl, (uint16_t)(GT911_REG_POINT1_X_ADDR + (i * 8)), read_data, 7 );
+                    if (FSP_SUCCESS != err)
+                    {
+                        __BKPT(0); //TODO: Better error handling
+                    }
+
+                    coordinates[i].x = (uint16_t)((read_data[2] << 8) | read_data[1]);
+                    coordinates[i].y = (uint16_t)((read_data[4] << 8) | read_data[3]);
+
+                }
+                *touch_event = TOUCH_EVENT_DOWN;
+            }
+            else
+            {
+                *touch_event = TOUCH_EVENT_UP;
+            }
+
+            /* Set status to 0, to wait for next touch event */
+            err = wrSensorReg16_8(&g_i2c_master1_ctrl, GT911_REG_READ_COORD_ADDR, 0);
+            if (FSP_SUCCESS != err)
+            {
+                __BKPT(0); //TODO: Better error handling
+            }
+        }
+
+        if(*touch_event == TOUCH_EVENT_MOVE || *touch_event == TOUCH_EVENT_DOWN) {
+            (*x) = (int32_t)coordinates[0].x;
+            (*y) = (int32_t)coordinates[0].y;
+        }
+}
+#if 0
+/*------------------
+ * Mouse
+ * -----------------*/
+
+/*Initialize your mouse*/
+static void mouse_init(void)
+{
+    /*Your code comes here*/
+}
+
+/*Will be called by the library to read the mouse*/
+static void mouse_read(lv_indev_t * indev_drv, lv_indev_data_t * data)
+{
+    /*Get the current x and y coordinates*/
+    mouse_get_xy(&data->point.x, &data->point.y);
+
+    /*Get whether the mouse button is pressed or released*/
+    if(mouse_is_pressed()) {
+        data->state = LV_INDEV_STATE_PRESSED;
+    }
+    else {
+        data->state = LV_INDEV_STATE_RELEASED;
+    }
+}
+
+/*Return true is the mouse button is pressed*/
+static bool mouse_is_pressed(void)
+{
+    /*Your code comes here*/
+
+    return false;
+}
+
+/*Get the x and y coordinates if the mouse is pressed*/
+static void mouse_get_xy(int32_t * x, int32_t * y)
+{
+    /*Your code comes here*/
+
+    (*x) = 0;
+    (*y) = 0;
+}
+
+/*------------------
+ * Keypad
+ * -----------------*/
+
+/*Initialize your keypad*/
+static void keypad_init(void)
+{
+    /*Your code comes here*/
+}
+
+/*Will be called by the library to read the mouse*/
+static void keypad_read(lv_indev_t * indev_drv, lv_indev_data_t * data)
+{
+    static uint32_t last_key = 0;
+
+    /*Get the current x and y coordinates*/
+    mouse_get_xy(&data->point.x, &data->point.y);
+
+    /*Get whether the a key is pressed and save the pressed key*/
+    uint32_t act_key = keypad_get_key();
+    if(act_key != 0) {
+        data->state = LV_INDEV_STATE_PRESSED;
+
+        /*Translate the keys to LVGL control characters according to your key definitions*/
+        switch(act_key) {
+            case 1:
+                act_key = LV_KEY_NEXT;
+                break;
+            case 2:
+                act_key = LV_KEY_PREV;
+                break;
+            case 3:
+                act_key = LV_KEY_LEFT;
+                break;
+            case 4:
+                act_key = LV_KEY_RIGHT;
+                break;
+            case 5:
+                act_key = LV_KEY_ENTER;
+                break;
+        }
+
+        last_key = act_key;
+    }
+    else {
+        data->state = LV_INDEV_STATE_RELEASED;
+    }
+
+    data->key = last_key;
+}
+
+/*Get the currently being pressed key.  0 if no key is pressed*/
+static uint32_t keypad_get_key(void)
+{
+    /*Your code comes here*/
+
+    return 0;
+}
+
+/*------------------
+ * Encoder
+ * -----------------*/
+
+/*Initialize your encoder*/
+static void encoder_init(void)
+{
+    /*Your code comes here*/
+}
+
+/*Will be called by the library to read the encoder*/
+static void encoder_read(lv_indev_t * indev_drv, lv_indev_data_t * data)
+{
+
+    data->enc_diff = encoder_diff;
+    data->state = encoder_state;
+}
+
+/*Call this function in an interrupt to process encoder events (turn, press)*/
+static void encoder_handler(void)
+{
+    /*Your code comes here*/
+
+    encoder_diff += 0;
+    encoder_state = LV_INDEV_STATE_RELEASED;
+}
+
+/*------------------
+ * Button
+ * -----------------*/
+
+/*Initialize your buttons*/
+static void button_init(void)
+{
+    /*Your code comes here*/
+}
+
+/*Will be called by the library to read the button*/
+static void button_read(lv_indev_t * indev_drv, lv_indev_data_t * data)
+{
+
+    static uint8_t last_btn = 0;
+
+    /*Get the pressed button's ID*/
+    int8_t btn_act = button_get_pressed_id();
+
+    if(btn_act >= 0) {
+        data->state = LV_INDEV_STATE_PRESSED;
+        last_btn = btn_act;
+    }
+    else {
+        data->state = LV_INDEV_STATE_RELEASED;
+    }
+
+    /*Save the last pressed button's ID*/
+    data->btn_id = last_btn;
+}
+
+/*Get ID  (0, 1, 2 ..) of the pressed button*/
+static int8_t button_get_pressed_id(void)
+{
+    uint8_t i;
+
+    /*Check to buttons see which is being pressed (assume there are 2 buttons)*/
+    for(i = 0; i < 2; i++) {
+        /*Return the pressed button's ID*/
+        if(button_is_pressed(i)) {
+            return i;
+        }
+    }
+
+    /*No button pressed*/
+    return -1;
+}
+
+/*Test if `id` button is pressed or not*/
+static bool button_is_pressed(uint8_t id)
+{
+
+    /*Your code comes here*/
+
+    return false;
+}
+#endif
+#else /*Enable this file at the top*/
+
+/*This dummy typedef exists purely to silence -Wpedantic.*/
+typedef int keep_pedantic_happy;
+#endif
