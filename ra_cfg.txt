@@ -131,16 +131,16 @@ FSP Configuration
     PLL2Q Div /8
     PLL2R Div /4
     Clock Src: PLL1P
-    CLKOUT Disabled
-    SCICLK Disabled
-    SPICLK Disabled
+    CLKOUT Src: LOCO
+    SCICLK Src: PLL1P
+    SPICLK Src: XTAL
     CANFDCLK Disabled
     LCDCLK Src: PLL2P
     I3CCLK Disabled
     UCK Disabled
     U60CK Disabled
     OCTASPICLK Disabled
-    CPUCLK Div /2
+    CPUCLK Div /1
     ICLK Div /2
     PCLKA Div /4
     PCLKB Div /8

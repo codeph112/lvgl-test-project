@@ -2,7 +2,7 @@ src/display/lvgl/src/libs/thorvg/tvgText.o: \
  ../src/display/lvgl/src/libs/thorvg/tvgText.cpp \
  ../src/display/lvgl/src/libs/thorvg/../../lv_conf_internal.h \
  ../src/display/lvgl/src/libs/thorvg/../../lv_conf_kconfig.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h \
+ ../src/display/lvgl/src/libs/thorvg/../../../../lv_conf.h \
  ../src/display/lvgl/src/libs/thorvg/tvgText.h \
  ../src/display/lvgl/src/libs/thorvg/tvgShape.h \
  ../src/display/lvgl/src/libs/thorvg/tvgMath.h \
@@ -19,7 +19,7 @@ src/display/lvgl/src/libs/thorvg/tvgText.o: \
  ../src/display/lvgl/src/libs/thorvg/tvgInlist.h
 ../src/display/lvgl/src/libs/thorvg/../../lv_conf_internal.h:
 ../src/display/lvgl/src/libs/thorvg/../../lv_conf_kconfig.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h:
+../src/display/lvgl/src/libs/thorvg/../../../../lv_conf.h:
 ../src/display/lvgl/src/libs/thorvg/tvgText.h:
 ../src/display/lvgl/src/libs/thorvg/tvgShape.h:
 ../src/display/lvgl/src/libs/thorvg/tvgMath.h:

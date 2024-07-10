@@ -2,7 +2,7 @@ src/display/lvgl/src/libs/thorvg/tvgLottieParser.o: \
  ../src/display/lvgl/src/libs/thorvg/tvgLottieParser.cpp \
  ../src/display/lvgl/src/libs/thorvg/../../lv_conf_internal.h \
  ../src/display/lvgl/src/libs/thorvg/../../lv_conf_kconfig.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h \
+ ../src/display/lvgl/src/libs/thorvg/../../../../lv_conf.h \
  ../src/display/lvgl/src/libs/thorvg/tvgStr.h \
  ../src/display/lvgl/src/libs/thorvg/tvgCompressor.h \
  ../src/display/lvgl/src/libs/thorvg/tvgLottieModel.h \
@@ -46,7 +46,7 @@ src/display/lvgl/src/libs/thorvg/tvgLottieParser.o: \
  ../src/display/lvgl/src/libs/thorvg/rapidjson/internal/../rapidjson.h
 ../src/display/lvgl/src/libs/thorvg/../../lv_conf_internal.h:
 ../src/display/lvgl/src/libs/thorvg/../../lv_conf_kconfig.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h:
+../src/display/lvgl/src/libs/thorvg/../../../../lv_conf.h:
 ../src/display/lvgl/src/libs/thorvg/tvgStr.h:
 ../src/display/lvgl/src/libs/thorvg/tvgCompressor.h:
 ../src/display/lvgl/src/libs/thorvg/tvgLottieModel.h:

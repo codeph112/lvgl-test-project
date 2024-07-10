@@ -3,7 +3,7 @@ src/display/lvgl/src/font/lv_font.o: \
  ../src/display/lvgl/src/font/lv_font.h \
  ../src/display/lvgl/src/font/../lv_conf_internal.h \
  ../src/display/lvgl/src/font/../lv_conf_kconfig.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lv_conf.h \
  ../src/display/lvgl/src/font/../misc/lv_types.h \
  ../src/display/lvgl/src/font/../misc/../lv_conf_internal.h \
  ../src/display/lvgl/src/font/lv_symbol_def.h \
@@ -16,9 +16,9 @@ src/display/lvgl/src/font/lv_font.o: \
  ../src/display/lvgl/src/font/../draw/../misc/lv_assert.h \
  ../src/display/lvgl/src/font/../draw/../misc/lv_log.h \
  ../src/display/lvgl/src/font/../draw/../misc/../stdlib/lv_mem.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
+ ../src/display/lvgl/src/font/../draw/../misc/../stdlib/../lv_conf_internal.h \
  ../src/display/lvgl/src/font/../draw/../misc/../stdlib/lv_string.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
+ ../src/display/lvgl/src/font/../draw/../misc/../stdlib/../misc/lv_types.h \
  ../src/display/lvgl/src/font/../draw/../misc/lv_palette.h \
  ../src/display/lvgl/src/font/../draw/../misc/lv_color.h \
  ../src/display/lvgl/src/font/../draw/../misc/lv_color_op.h \
@@ -29,8 +29,8 @@ src/display/lvgl/src/font/lv_font.o: \
  ../src/display/lvgl/src/font/../misc/cache/lv_cache.h \
  ../src/display/lvgl/src/font/../misc/cache/lv_cache_entry.h \
  ../src/display/lvgl/src/font/../misc/cache/../../osal/lv_os.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
+ ../src/display/lvgl/src/font/../misc/cache/../../osal/../lv_conf_internal.h \
+ ../src/display/lvgl/src/font/../misc/cache/../../osal/../misc/lv_types.h \
  ../src/display/lvgl/src/font/../misc/cache/../../osal/lv_os_none.h \
  ../src/display/lvgl/src/font/../misc/cache/../lv_types.h \
  ../src/display/lvgl/src/font/../misc/cache/lv_cache_private.h \
@@ -53,7 +53,7 @@ src/display/lvgl/src/font/lv_font.o: \
 ../src/display/lvgl/src/font/lv_font.h:
 ../src/display/lvgl/src/font/../lv_conf_internal.h:
 ../src/display/lvgl/src/font/../lv_conf_kconfig.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lv_conf.h:
 ../src/display/lvgl/src/font/../misc/lv_types.h:
 ../src/display/lvgl/src/font/../misc/../lv_conf_internal.h:
 ../src/display/lvgl/src/font/lv_symbol_def.h:
@@ -66,9 +66,9 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h:
 ../src/display/lvgl/src/font/../draw/../misc/lv_assert.h:
 ../src/display/lvgl/src/font/../draw/../misc/lv_log.h:
 ../src/display/lvgl/src/font/../draw/../misc/../stdlib/lv_mem.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
+../src/display/lvgl/src/font/../draw/../misc/../stdlib/../lv_conf_internal.h:
 ../src/display/lvgl/src/font/../draw/../misc/../stdlib/lv_string.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
+../src/display/lvgl/src/font/../draw/../misc/../stdlib/../misc/lv_types.h:
 ../src/display/lvgl/src/font/../draw/../misc/lv_palette.h:
 ../src/display/lvgl/src/font/../draw/../misc/lv_color.h:
 ../src/display/lvgl/src/font/../draw/../misc/lv_color_op.h:
@@ -79,8 +79,8 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
 ../src/display/lvgl/src/font/../misc/cache/lv_cache.h:
 ../src/display/lvgl/src/font/../misc/cache/lv_cache_entry.h:
 ../src/display/lvgl/src/font/../misc/cache/../../osal/lv_os.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
+../src/display/lvgl/src/font/../misc/cache/../../osal/../lv_conf_internal.h:
+../src/display/lvgl/src/font/../misc/cache/../../osal/../misc/lv_types.h:
 ../src/display/lvgl/src/font/../misc/cache/../../osal/lv_os_none.h:
 ../src/display/lvgl/src/font/../misc/cache/../lv_types.h:
 ../src/display/lvgl/src/font/../misc/cache/lv_cache_private.h:

@@ -2,7 +2,7 @@ src/display/lvgl/src/libs/thorvg/tvgPicture.o: \
  ../src/display/lvgl/src/libs/thorvg/tvgPicture.cpp \
  ../src/display/lvgl/src/libs/thorvg/../../lv_conf_internal.h \
  ../src/display/lvgl/src/libs/thorvg/../../lv_conf_kconfig.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h \
+ ../src/display/lvgl/src/libs/thorvg/../../../../lv_conf.h \
  ../src/display/lvgl/src/libs/thorvg/tvgPicture.h \
  ../src/display/lvgl/src/libs/thorvg/tvgPaint.h \
  ../src/display/lvgl/src/libs/thorvg/tvgRender.h \
@@ -17,7 +17,7 @@ src/display/lvgl/src/libs/thorvg/tvgPicture.o: \
  ../src/display/lvgl/src/libs/thorvg/tvgInlist.h
 ../src/display/lvgl/src/libs/thorvg/../../lv_conf_internal.h:
 ../src/display/lvgl/src/libs/thorvg/../../lv_conf_kconfig.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h:
+../src/display/lvgl/src/libs/thorvg/../../../../lv_conf.h:
 ../src/display/lvgl/src/libs/thorvg/tvgPicture.h:
 ../src/display/lvgl/src/libs/thorvg/tvgPaint.h:
 ../src/display/lvgl/src/libs/thorvg/tvgRender.h:

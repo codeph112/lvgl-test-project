@@ -254,7 +254,7 @@ all: rn_ra8_fsd.elf secondary-outputs
 
 # Tool invocations
 rn_ra8_fsd.elf: $(OBJS) $(USER_OBJS) $(LINKER_SCRIPT)
-	$(file > rn_ra8_fsd.elf.in,-mthumb -mfloat-abi=hard -mcpu=cortex-m85+nopacbti -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal -g -T "fsp.ld" -Xlinker --gc-sections -L "D:\\DevOps\\Renesas\\rn_ra8_fsd\\script" -Wl,-Map,"rn_ra8_fsd.map" -o "rn_ra8_fsd.elf" -Wl,--start-group $(OBJS) $(USER_OBJS) $(LIBS) -Wl,--end-group)
+	$(file > rn_ra8_fsd.elf.in,-mthumb -mfloat-abi=hard -mcpu=cortex-m85+nopacbti -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal -g -T "fsp.ld" -Xlinker --gc-sections -L "C:\\Users\\Bhura Malik\\Desktop\\lvgl-test-project\\script" -Wl,-Map,"rn_ra8_fsd.map" -o "rn_ra8_fsd.elf" -Wl,--start-group $(OBJS) $(USER_OBJS) $(LIBS) -Wl,--end-group)
 	@echo Building target: $@ && arm-none-eabi-g++ @"rn_ra8_fsd.elf.in"
 rn_ra8_fsd.srec: rn_ra8_fsd.elf
 	arm-none-eabi-objcopy -O srec "rn_ra8_fsd.elf"  "rn_ra8_fsd.srec"

@@ -3,7 +3,7 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/lv_version.h ../src/display/lvgl/src/lv_init.h \
  ../src/display/lvgl/src/lv_conf_internal.h \
  ../src/display/lvgl/src/lv_conf_kconfig.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lv_conf.h \
  ../src/display/lvgl/src/misc/lv_types.h \
  ../src/display/lvgl/src/misc/../lv_conf_internal.h \
  ../src/display/lvgl/src/stdlib/lv_mem.h \
@@ -41,30 +41,30 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/core/../misc/../font/../misc/lv_types.h \
  ../src/display/lvgl/src/core/../misc/../font/lv_symbol_def.h \
  ../src/display/lvgl/src/core/../misc/../font/../draw/lv_draw_buf.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_math.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_assert.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_palette.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color_op.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/stdlib/lv_string.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_area.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/../lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_types.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_math.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_color.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_assert.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_palette.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_color.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_color_op.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../stdlib/lv_string.h \
  ../src/display/lvgl/src/core/../misc/../font/../draw/lv_image_dsc.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../misc/../font/../draw/../lv_conf_internal.h \
  ../src/display/lvgl/src/core/../misc/../font/../misc/lv_area.h \
  ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_cache.h \
  ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_cache_entry.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os_none.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
+ ../src/display/lvgl/src/core/../misc/../font/../misc/cache/../../osal/lv_os.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lvgl/src/lv_conf_internal.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lvgl/src/misc/lv_types.h \
+ ../src/display/lvgl/src/core/../misc/../font/../misc/cache/../../osal/lv_os_none.h \
+ ../src/display/lvgl/src/core/../misc/../font/../misc/cache/../lv_types.h \
  ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_cache_private.h \
  ../src/display/lvgl/src/core/../misc/../font/../misc/cache/_lv_cache_lru_rb.h \
  ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_image_cache.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../misc/../font/../misc/cache/../../lv_conf_internal.h \
  ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_image_header_cache.h \
  ../src/display/lvgl/src/core/../misc/lv_color.h \
  ../src/display/lvgl/src/core/../misc/lv_area.h \
@@ -76,14 +76,14 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/core/../misc/lv_assert.h \
  ../src/display/lvgl/src/core/../misc/lv_bidi.h \
  ../src/display/lvgl/src/core/../misc/../layouts/lv_layout.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
+ ../src/display/lvgl/src/core/../misc/../layouts/../lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../misc/../layouts/../misc/lv_types.h \
  ../src/display/lvgl/src/core/../misc/../layouts/flex/lv_flex.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h \
+ ../src/display/lvgl/src/core/../misc/../layouts/flex/../../lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../misc/../layouts/flex/../../misc/lv_area.h \
  ../src/display/lvgl/src/core/../misc/../layouts/grid/lv_grid.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h \
+ ../src/display/lvgl/src/core/../misc/../layouts/grid/../../lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../misc/../layouts/grid/../../misc/lv_area.h \
  ../src/display/lvgl/src/core/../misc/lv_style_gen.h \
  ../src/display/lvgl/src/core/../misc/lv_area.h \
  ../src/display/lvgl/src/core/../misc/lv_color.h \
@@ -95,29 +95,31 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/core/../display/../misc/lv_timer.h \
  ../src/display/lvgl/src/core/../display/../misc/lv_event.h \
  ../src/display/lvgl/src/core/../display/../misc/lv_types.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../display/../misc/../lv_conf_internal.h \
  ../src/display/lvgl/src/core/../display/../misc/lv_array.h \
  ../src/display/lvgl/src/core/../display/../misc/lv_color.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_style.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_text.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_profiler.h \
+ ../src/display/lvgl/src/core/../display/../draw/../lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_types.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_style.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_text.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_profiler.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/../lv_conf_internal.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_image_decoder.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw_buf.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_fs.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/cache/lv_cache.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_fs.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_types.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_area.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/cache/lv_cache.h \
+ ../src/display/lvgl/src/core/../display/../draw/../osal/lv_os.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw_rect.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_color.h \
  ../src/display/lvgl/src/core/../display/../draw/sw/lv_draw_sw_gradient.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_style.h \
+ ../src/display/lvgl/src/core/../display/../draw/sw/../../misc/lv_color.h \
+ ../src/display/lvgl/src/core/../display/../draw/sw/../../misc/lv_style.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw_label.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_bidi.h \
+ ../src/display/lvgl/src/core/../display/../draw/../misc/lv_bidi.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw_image.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw_arc.h \
  ../src/display/lvgl/src/core/../display/../draw/lv_draw_line.h \
@@ -156,10 +158,10 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/font/../misc/lv_types.h \
  ../src/display/lvgl/src/widgets/animimage/lv_animimage.h \
  ../src/display/lvgl/src/widgets/animimage/../image/lv_image.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_fs.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/draw/lv_draw.h \
+ ../src/display/lvgl/src/widgets/animimage/../image/../../lv_conf_internal.h \
+ ../src/display/lvgl/src/widgets/animimage/../image/../../core/lv_obj.h \
+ ../src/display/lvgl/src/widgets/animimage/../image/../../misc/lv_fs.h \
+ ../src/display/lvgl/src/widgets/animimage/../image/../../draw/lv_draw.h \
  ../src/display/lvgl/src/widgets/arc/lv_arc.h \
  ../src/display/lvgl/src/widgets/arc/../../lv_conf_internal.h \
  ../src/display/lvgl/src/widgets/arc/../../core/lv_obj.h \
@@ -168,19 +170,19 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/widgets/bar/../../core/lv_obj.h \
  ../src/display/lvgl/src/widgets/bar/../../misc/lv_anim.h \
  ../src/display/lvgl/src/widgets/bar/../label/lv_label.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/font/lv_font.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/font/lv_symbol_def.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_text.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/draw/lv_draw.h \
+ ../src/display/lvgl/src/widgets/bar/../label/../../lv_conf_internal.h \
+ ../src/display/lvgl/src/widgets/bar/../label/../../misc/lv_types.h \
+ ../src/display/lvgl/src/widgets/bar/../label/../../core/lv_obj.h \
+ ../src/display/lvgl/src/widgets/bar/../label/../../font/lv_font.h \
+ ../src/display/lvgl/src/widgets/bar/../label/../../font/lv_symbol_def.h \
+ ../src/display/lvgl/src/widgets/bar/../label/../../misc/lv_text.h \
+ ../src/display/lvgl/src/widgets/bar/../label/../../draw/lv_draw.h \
  ../src/display/lvgl/src/widgets/button/lv_button.h \
  ../src/display/lvgl/src/widgets/button/../../lv_conf_internal.h \
  ../src/display/lvgl/src/widgets/button/../../core/lv_obj.h \
  ../src/display/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h \
+ ../src/display/lvgl/src/widgets/buttonmatrix/../../lv_conf_internal.h \
+ ../src/display/lvgl/src/widgets/buttonmatrix/../../core/lv_obj.h \
  ../src/display/lvgl/src/widgets/calendar/lv_calendar.h \
  ../src/display/lvgl/src/widgets/calendar/../buttonmatrix/lv_buttonmatrix.h \
  ../src/display/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
@@ -255,7 +257,7 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/others/sysmon/lv_sysmon.h \
  ../src/display/lvgl/src/others/sysmon/../../misc/lv_timer.h \
  ../src/display/lvgl/src/others/sysmon/../../others/observer/lv_observer.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h \
+ ../src/display/lvgl/src/others/sysmon/../../others/observer/../../core/lv_obj.h \
  ../src/display/lvgl/src/others/monkey/lv_monkey.h \
  ../src/display/lvgl/src/others/monkey/../../lv_conf_internal.h \
  ../src/display/lvgl/src/others/monkey/../../indev/lv_indev.h \
@@ -271,8 +273,8 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/others/ime/../../lv_conf_internal.h \
  ../src/display/lvgl/src/others/ime/../../core/lv_obj.h \
  ../src/display/lvgl/src/others/file_explorer/lv_file_explorer.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h \
+ ../src/display/lvgl/src/others/file_explorer/../../lv_conf_internal.h \
+ ../src/display/lvgl/src/others/file_explorer/../../core/lv_obj.h \
  ../src/display/lvgl/src/libs/barcode/lv_barcode.h \
  ../src/display/lvgl/src/libs/barcode/../../lv_conf_internal.h \
  ../src/display/lvgl/src/libs/barcode/../../misc/lv_types.h \
@@ -335,11 +337,11 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/drivers/x11/../../display/lv_display.h \
  ../src/display/lvgl/src/drivers/x11/../../indev/lv_indev.h \
  ../src/display/lvgl/src/drivers/display/drm/lv_linux_drm.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/display/lv_display.h \
+ ../src/display/lvgl/src/drivers/display/drm/../../../display/lv_display.h \
  ../src/display/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/display/lv_display.h \
+ ../src/display/lvgl/src/drivers/display/fb/../../../display/lv_display.h \
  ../src/display/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/display/lv_display.h \
+ ../src/display/lvgl/src/drivers/display/tft_espi/../../../display/lv_display.h \
  ../src/display/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
  ../src/display/lvgl/src/drivers/nuttx/../../lv_conf_internal.h \
  ../src/display/lvgl/src/drivers/nuttx/../../display/lv_display.h \
@@ -373,13 +375,13 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/core/../draw/sw/../../draw/lv_draw_vector.h \
  ../src/display/lvgl/src/core/../draw/sw/blend/lv_draw_sw_blend.h \
  ../src/display/lvgl/src/core/../draw/sw/blend/../lv_draw_sw_mask.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_math.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_style.h \
+ ../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_area.h \
+ ../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_color.h \
+ ../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_math.h \
+ ../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_types.h \
+ ../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_color.h \
+ ../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_area.h \
+ ../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_style.h \
  ../src/display/lvgl/src/core/../misc/lv_color_op.h \
  ../src/display/lvgl/src/core/../misc/lv_ll.h \
  ../src/display/lvgl/src/core/../misc/lv_log.h \
@@ -387,100 +389,100 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
  ../src/display/lvgl/src/core/../osal/lv_os.h \
  ../src/display/lvgl/src/core/../others/sysmon/lv_sysmon.h \
  ../src/display/lvgl/src/core/../stdlib/builtin/lv_tlsf.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_ll.h \
- D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h \
+ ../src/display/lvgl/src/core/../stdlib/builtin/../../lv_conf_internal.h \
+ ../src/display/lvgl/src/core/../stdlib/builtin/../../osal/lv_os.h \
+ ../src/display/lvgl/src/core/../stdlib/builtin/../../misc/lv_ll.h \
+ ../src/display/lvgl/src/core/../stdlib/builtin/../../misc/lv_types.h \
  ../src/display/lvgl/src/core/../tick/lv_tick.h \
  ../src/display/lvgl/src/core/../layouts/lv_layout.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/thread_disp.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/bsp_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/fsp_common_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/fsp_version.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/bsp_clock_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_override.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_mcu_info.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_elc.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature_gen.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/board_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/vector_data.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7FA8D1BH.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_version.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_common.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/fsp_common_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_tfu.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_sdram.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_irq.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_io.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_clocks.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_security.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/fsp_features.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/fsp_common_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_delay.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/aws/FreeRTOSConfig.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/portable.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/rm_freertos_port/portmacro.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/list.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/semphr.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/queue.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/hal_data.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/common_data.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/event_groups.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/timers.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_mipi_dsi.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/r_mipi_dsi_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_mipi_dsi_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/bsp_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_mipi_phy.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_glcdc.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_display_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_driver.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_types.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_errorcodes.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_base.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_math.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_icu.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_external_irq_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_ioport.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_ioport_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/r_ioport_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_gpt.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_timer_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_iic_master.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/r_iic_master_cfg.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_i2c_master_api.h \
- D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_transfer_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/thread_disp.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/bsp_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/fsp_common_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/fsp_version.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/bsp_clock_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_override.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_mcu_info.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_elc.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature_gen.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/board_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/vector_data.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7FA8D1BH.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_version.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_common.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/fsp_common_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_tfu.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_sdram.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_irq.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_io.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_clocks.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_security.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/fsp_features.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/fsp_common_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_delay.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/aws/FreeRTOSConfig.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/portable.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/rm_freertos_port/portmacro.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/list.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/semphr.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/queue.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/hal_data.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/common_data.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/event_groups.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/timers.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_mipi_dsi.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/r_mipi_dsi_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_mipi_dsi_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/bsp_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_mipi_phy.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_glcdc.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_display_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_driver.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_types.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_errorcodes.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_base.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_math.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_icu.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_external_irq_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_ioport.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_ioport_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/r_ioport_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_gpt.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_timer_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_iic_master.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/r_iic_master_cfg.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_i2c_master_api.h \
+ C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_transfer_api.h \
  ../src/display/touch/touch_GT911.h ../src/display/touch/arducam.h
 ../src/display/lv_port_indev.h:
 ../src/display/lvgl/lvgl.h:
@@ -488,7 +490,7 @@ src/display/lv_port_indev.o: ../src/display/lv_port_indev.c \
 ../src/display/lvgl/src/lv_init.h:
 ../src/display/lvgl/src/lv_conf_internal.h:
 ../src/display/lvgl/src/lv_conf_kconfig.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lv_conf.h:
 ../src/display/lvgl/src/misc/lv_types.h:
 ../src/display/lvgl/src/misc/../lv_conf_internal.h:
 ../src/display/lvgl/src/stdlib/lv_mem.h:
@@ -526,30 +528,30 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lv_conf.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/lv_types.h:
 ../src/display/lvgl/src/core/../misc/../font/lv_symbol_def.h:
 ../src/display/lvgl/src/core/../misc/../font/../draw/lv_draw_buf.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_math.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_assert.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_palette.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color_op.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/stdlib/lv_string.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_area.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/../lv_conf_internal.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_types.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_math.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_color.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_assert.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_palette.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_color.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../misc/lv_color_op.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../stdlib/lv_string.h:
 ../src/display/lvgl/src/core/../misc/../font/../draw/lv_image_dsc.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
+../src/display/lvgl/src/core/../misc/../font/../draw/../lv_conf_internal.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/lv_area.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_cache.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_cache_entry.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os_none.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
+../src/display/lvgl/src/core/../misc/../font/../misc/cache/../../osal/lv_os.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lvgl/src/lv_conf_internal.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/src/display/lvgl/src/misc/lv_types.h:
+../src/display/lvgl/src/core/../misc/../font/../misc/cache/../../osal/lv_os_none.h:
+../src/display/lvgl/src/core/../misc/../font/../misc/cache/../lv_types.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_cache_private.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/cache/_lv_cache_lru_rb.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_image_cache.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
+../src/display/lvgl/src/core/../misc/../font/../misc/cache/../../lv_conf_internal.h:
 ../src/display/lvgl/src/core/../misc/../font/../misc/cache/lv_image_header_cache.h:
 ../src/display/lvgl/src/core/../misc/lv_color.h:
 ../src/display/lvgl/src/core/../misc/lv_area.h:
@@ -561,14 +563,14 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
 ../src/display/lvgl/src/core/../misc/lv_assert.h:
 ../src/display/lvgl/src/core/../misc/lv_bidi.h:
 ../src/display/lvgl/src/core/../misc/../layouts/lv_layout.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
+../src/display/lvgl/src/core/../misc/../layouts/../lv_conf_internal.h:
+../src/display/lvgl/src/core/../misc/../layouts/../misc/lv_types.h:
 ../src/display/lvgl/src/core/../misc/../layouts/flex/lv_flex.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h:
+../src/display/lvgl/src/core/../misc/../layouts/flex/../../lv_conf_internal.h:
+../src/display/lvgl/src/core/../misc/../layouts/flex/../../misc/lv_area.h:
 ../src/display/lvgl/src/core/../misc/../layouts/grid/lv_grid.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h:
+../src/display/lvgl/src/core/../misc/../layouts/grid/../../lv_conf_internal.h:
+../src/display/lvgl/src/core/../misc/../layouts/grid/../../misc/lv_area.h:
 ../src/display/lvgl/src/core/../misc/lv_style_gen.h:
 ../src/display/lvgl/src/core/../misc/lv_area.h:
 ../src/display/lvgl/src/core/../misc/lv_color.h:
@@ -580,29 +582,31 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h:
 ../src/display/lvgl/src/core/../display/../misc/lv_timer.h:
 ../src/display/lvgl/src/core/../display/../misc/lv_event.h:
 ../src/display/lvgl/src/core/../display/../misc/lv_types.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
+../src/display/lvgl/src/core/../display/../misc/../lv_conf_internal.h:
 ../src/display/lvgl/src/core/../display/../misc/lv_array.h:
 ../src/display/lvgl/src/core/../display/../misc/lv_color.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_style.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_text.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_profiler.h:
+../src/display/lvgl/src/core/../display/../draw/../lv_conf_internal.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_types.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_style.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_text.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_profiler.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/../lv_conf_internal.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_image_decoder.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw_buf.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_fs.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/cache/lv_cache.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_fs.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_types.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_area.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/cache/lv_cache.h:
+../src/display/lvgl/src/core/../display/../draw/../osal/lv_os.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw_rect.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_color.h:
 ../src/display/lvgl/src/core/../display/../draw/sw/lv_draw_sw_gradient.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_style.h:
+../src/display/lvgl/src/core/../display/../draw/sw/../../misc/lv_color.h:
+../src/display/lvgl/src/core/../display/../draw/sw/../../misc/lv_style.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw_label.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_bidi.h:
+../src/display/lvgl/src/core/../display/../draw/../misc/lv_bidi.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw_image.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw_arc.h:
 ../src/display/lvgl/src/core/../display/../draw/lv_draw_line.h:
@@ -641,10 +645,10 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_bidi.h:
 ../src/display/lvgl/src/font/../misc/lv_types.h:
 ../src/display/lvgl/src/widgets/animimage/lv_animimage.h:
 ../src/display/lvgl/src/widgets/animimage/../image/lv_image.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_fs.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/draw/lv_draw.h:
+../src/display/lvgl/src/widgets/animimage/../image/../../lv_conf_internal.h:
+../src/display/lvgl/src/widgets/animimage/../image/../../core/lv_obj.h:
+../src/display/lvgl/src/widgets/animimage/../image/../../misc/lv_fs.h:
+../src/display/lvgl/src/widgets/animimage/../image/../../draw/lv_draw.h:
 ../src/display/lvgl/src/widgets/arc/lv_arc.h:
 ../src/display/lvgl/src/widgets/arc/../../lv_conf_internal.h:
 ../src/display/lvgl/src/widgets/arc/../../core/lv_obj.h:
@@ -653,19 +657,19 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/draw/lv_draw.h:
 ../src/display/lvgl/src/widgets/bar/../../core/lv_obj.h:
 ../src/display/lvgl/src/widgets/bar/../../misc/lv_anim.h:
 ../src/display/lvgl/src/widgets/bar/../label/lv_label.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/font/lv_font.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/font/lv_symbol_def.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_text.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/draw/lv_draw.h:
+../src/display/lvgl/src/widgets/bar/../label/../../lv_conf_internal.h:
+../src/display/lvgl/src/widgets/bar/../label/../../misc/lv_types.h:
+../src/display/lvgl/src/widgets/bar/../label/../../core/lv_obj.h:
+../src/display/lvgl/src/widgets/bar/../label/../../font/lv_font.h:
+../src/display/lvgl/src/widgets/bar/../label/../../font/lv_symbol_def.h:
+../src/display/lvgl/src/widgets/bar/../label/../../misc/lv_text.h:
+../src/display/lvgl/src/widgets/bar/../label/../../draw/lv_draw.h:
 ../src/display/lvgl/src/widgets/button/lv_button.h:
 ../src/display/lvgl/src/widgets/button/../../lv_conf_internal.h:
 ../src/display/lvgl/src/widgets/button/../../core/lv_obj.h:
 ../src/display/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
+../src/display/lvgl/src/widgets/buttonmatrix/../../lv_conf_internal.h:
+../src/display/lvgl/src/widgets/buttonmatrix/../../core/lv_obj.h:
 ../src/display/lvgl/src/widgets/calendar/lv_calendar.h:
 ../src/display/lvgl/src/widgets/calendar/../buttonmatrix/lv_buttonmatrix.h:
 ../src/display/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h:
@@ -740,7 +744,7 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
 ../src/display/lvgl/src/others/sysmon/lv_sysmon.h:
 ../src/display/lvgl/src/others/sysmon/../../misc/lv_timer.h:
 ../src/display/lvgl/src/others/sysmon/../../others/observer/lv_observer.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
+../src/display/lvgl/src/others/sysmon/../../others/observer/../../core/lv_obj.h:
 ../src/display/lvgl/src/others/monkey/lv_monkey.h:
 ../src/display/lvgl/src/others/monkey/../../lv_conf_internal.h:
 ../src/display/lvgl/src/others/monkey/../../indev/lv_indev.h:
@@ -756,8 +760,8 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
 ../src/display/lvgl/src/others/ime/../../lv_conf_internal.h:
 ../src/display/lvgl/src/others/ime/../../core/lv_obj.h:
 ../src/display/lvgl/src/others/file_explorer/lv_file_explorer.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
+../src/display/lvgl/src/others/file_explorer/../../lv_conf_internal.h:
+../src/display/lvgl/src/others/file_explorer/../../core/lv_obj.h:
 ../src/display/lvgl/src/libs/barcode/lv_barcode.h:
 ../src/display/lvgl/src/libs/barcode/../../lv_conf_internal.h:
 ../src/display/lvgl/src/libs/barcode/../../misc/lv_types.h:
@@ -820,11 +824,11 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/core/lv_obj.h:
 ../src/display/lvgl/src/drivers/x11/../../display/lv_display.h:
 ../src/display/lvgl/src/drivers/x11/../../indev/lv_indev.h:
 ../src/display/lvgl/src/drivers/display/drm/lv_linux_drm.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/display/lv_display.h:
+../src/display/lvgl/src/drivers/display/drm/../../../display/lv_display.h:
 ../src/display/lvgl/src/drivers/display/fb/lv_linux_fbdev.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/display/lv_display.h:
+../src/display/lvgl/src/drivers/display/fb/../../../display/lv_display.h:
 ../src/display/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/display/lv_display.h:
+../src/display/lvgl/src/drivers/display/tft_espi/../../../display/lv_display.h:
 ../src/display/lvgl/src/drivers/nuttx/lv_nuttx_entry.h:
 ../src/display/lvgl/src/drivers/nuttx/../../lv_conf_internal.h:
 ../src/display/lvgl/src/drivers/nuttx/../../display/lv_display.h:
@@ -858,13 +862,13 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/display/lv_display.h:
 ../src/display/lvgl/src/core/../draw/sw/../../draw/lv_draw_vector.h:
 ../src/display/lvgl/src/core/../draw/sw/blend/lv_draw_sw_blend.h:
 ../src/display/lvgl/src/core/../draw/sw/blend/../lv_draw_sw_mask.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_math.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_color.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_area.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_style.h:
+../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_area.h:
+../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_color.h:
+../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_math.h:
+../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_types.h:
+../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_color.h:
+../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_area.h:
+../src/display/lvgl/src/core/../draw/sw/blend/../../../misc/lv_style.h:
 ../src/display/lvgl/src/core/../misc/lv_color_op.h:
 ../src/display/lvgl/src/core/../misc/lv_ll.h:
 ../src/display/lvgl/src/core/../misc/lv_log.h:
@@ -872,99 +876,99 @@ D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_style.h:
 ../src/display/lvgl/src/core/../osal/lv_os.h:
 ../src/display/lvgl/src/core/../others/sysmon/lv_sysmon.h:
 ../src/display/lvgl/src/core/../stdlib/builtin/lv_tlsf.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/lv_conf_internal.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/osal/lv_os.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_ll.h:
-D:/DevOps/Renesas/rn_ra8_fsd/src/display/lvgl/src/misc/lv_types.h:
+../src/display/lvgl/src/core/../stdlib/builtin/../../lv_conf_internal.h:
+../src/display/lvgl/src/core/../stdlib/builtin/../../osal/lv_os.h:
+../src/display/lvgl/src/core/../stdlib/builtin/../../misc/lv_ll.h:
+../src/display/lvgl/src/core/../stdlib/builtin/../../misc/lv_types.h:
 ../src/display/lvgl/src/core/../tick/lv_tick.h:
 ../src/display/lvgl/src/core/../layouts/lv_layout.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/thread_disp.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/bsp_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/fsp_common_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/fsp_version.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/bsp_clock_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_override.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_mcu_info.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_elc.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature_gen.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/board_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/vector_data.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7FA8D1BH.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_version.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_common.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/fsp_common_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_tfu.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_sdram.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_irq.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_io.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_clocks.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_security.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/fsp_features.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/fsp_common_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_delay.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/aws/FreeRTOSConfig.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/portable.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/src/rm_freertos_port/portmacro.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/list.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/semphr.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/queue.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/hal_data.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_gen/common_data.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/event_groups.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/aws/FreeRTOS/FreeRTOS/Source/include/timers.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_mipi_dsi.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/r_mipi_dsi_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_mipi_dsi_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/bsp_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_mipi_phy.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_glcdc.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_display_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_driver.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_types.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_errorcodes.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_base.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/tes/dave2d/inc/dave_math.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_icu.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_external_irq_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_ioport.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_ioport_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/r_ioport_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_gpt.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_timer_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/instances/r_iic_master.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra_cfg/fsp_cfg/r_iic_master_cfg.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_i2c_master_api.h:
-D:/DevOps/Renesas/rn_ra8_fsd/ra/fsp/inc/api/r_transfer_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/thread_disp.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/bsp_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/fsp_common_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/fsp_version.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/bsp_clock_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_override.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_mcu_info.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_elc.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/ra8d1/bsp_feature_gen.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/board_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/vector_data.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7FA8D1BH.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_version.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_common.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/fsp_common_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_tfu.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_sdram.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_irq.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_io.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_clocks.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_security.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/fsp_features.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/fsp_common_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_delay.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/aws/FreeRTOSConfig.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/portable.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/src/rm_freertos_port/portmacro.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/projdefs.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/list.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/semphr.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/queue.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/task.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/hal_data.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_gen/common_data.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/event_groups.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/aws/FreeRTOS/FreeRTOS/Source/include/timers.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_mipi_dsi.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/r_mipi_dsi_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_mipi_dsi_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/bsp_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_mipi_phy.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_glcdc.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_display_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_driver.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_types.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_errorcodes.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_base.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/tes/dave2d/inc/dave_math.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_icu.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_external_irq_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_ioport.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_ioport_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/r_ioport_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_gpt.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_timer_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/instances/r_iic_master.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra_cfg/fsp_cfg/r_iic_master_cfg.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_i2c_master_api.h:
+C:/Users/Bhura\ Malik/Desktop/lvgl-test-project/ra/fsp/inc/api/r_transfer_api.h:
 ../src/display/touch/touch_GT911.h:
 ../src/display/touch/arducam.h:
