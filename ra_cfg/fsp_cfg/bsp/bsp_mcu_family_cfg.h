@@ -559,7 +559,7 @@
 #endif
 
 #ifndef BSP_CFG_SDRAM_ENABLED
-#define BSP_CFG_SDRAM_ENABLED  (0)
+#define BSP_CFG_SDRAM_ENABLED  (1)
 #endif
 
 #ifndef BSP_CFG_SDRAM_TRAS
