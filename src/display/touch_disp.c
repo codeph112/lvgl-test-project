@@ -41,6 +41,7 @@ static void touch_init(void)
     {
         __BKPT(0); //TODO: Better error handling
     }
+
 }
 
 void touch_disp_init(void)
@@ -49,6 +50,8 @@ void touch_disp_init(void)
     touch_init();
 
     lv_display_t * disp = lv_renesas_glcdc_direct_create();
+
+   // lv_disp_set_rotation(disp, LV_DISPLAY_ROTATION_90);
 
     lv_display_set_default(disp);
 

@@ -10,7 +10,9 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include src/timers/subdir.mk
 -include src/display/touch/subdir.mk
+-include src/display/screens/subdir.mk
 -include src/display/lvgl/src/widgets/win/subdir.mk
 -include src/display/lvgl/src/widgets/tileview/subdir.mk
 -include src/display/lvgl/src/widgets/textarea/subdir.mk

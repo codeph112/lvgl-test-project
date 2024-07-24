@@ -206,6 +206,8 @@ src/display/lvgl/src/widgets/tabview \
 src/display/lvgl/src/widgets/textarea \
 src/display/lvgl/src/widgets/tileview \
 src/display/lvgl/src/widgets/win \
+src/display/screens \
 src/display/touch \
 src \
+src/timers \
 
